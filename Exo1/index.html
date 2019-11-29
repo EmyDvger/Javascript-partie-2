@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8"/>
-    <title>Javascript Partie 2 Exo1</title>
-  </head>
-  <body>
-    <div align="center">
-      <h1>Coucher de soleil</h1>
-      <img src="assets/img/couchersoleil1.jpg" id= "picture1" title="coucher du soleil" alt="photographie du coucher de soleil">
-    </div>
-  </body>
+<head>
+  <meta charset="utf-8"/>
+  <title>Javascript Partie 2 Exo1</title>
+</head>
+<body>
+  <fieldset>
+  <div align="center">
+    <h1>Coucher de soleil</h1>
+    <!-- Concerne mon image de base-->
+    <!--onmouseover lorsque la souris survole l'élément-->
+    <!--onmouseout lorsque la souris quitte le survole l'élément-->
+    <img src="assets/img/couchersoleil1.jpg"
+     onmouseover="changeImageOver()" id="picture1"
+    onmouseout="changeImageOut()" title="coucher du soleil" alt="photographie du coucher de soleil"/>
+  </div>
+  </fieldset>
+</body>
+<!-- concerne mon script javascript -->
 <script src="assets/js/script.js"></script>
 </html>
